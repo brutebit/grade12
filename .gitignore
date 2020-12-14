@@ -1,0 +1,8 @@
+*.aux
+*.log
+*.pdf
+*.err
+*.toc 
+*.gz
+.DS_Store
+*.swp
