@@ -1,0 +1,60 @@
+\documentclass[a4paper]{arabart}
+\usepackage{arabtex}
+\usepackage[margin=1in]{geometry}
+\usepackage{ragged2e}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\novocalize
+\setarab
+
+\begin{RLtext}
+
+\begin{center}
+\huge{al-dares al-_tAle_t}
+\vspace{5pt}
+\huge{al-mo'a^sirAt al-iqti.saadiyaT waal-mAlyaT lil-tanmiyaT}
+\end{center} 
+\vspace{10pt}
+\tableofcontents
+
+\end{RLtext}
+
+\thispagestyle{empty}
+\newpage
+
+\setcounter{page}{1}
+
+\begin{RLtext}
+
+\smallskip
+\input{intro.tex}
+\section{al-mo'a^sirAt al-iqti.saadiyaT}
+\subsection{al-mo'a^sirAt al-iqti.saadiyaT al-`AmaT}
+\smallskip
+\input{subsection1.tex}
+
+\subsection{al-mo'a^sirAt al-iqti.sAdiyaT al-qi.tA`iyaT}
+\smallskip
+\input{subsection2.tex}
+
+\section{al-mo'a^sirAt al-mAliyaT}
+\input{intro2.tex}
+
+\subsection{mo'a^sirAt al-'iyrAdAt}
+\input{subsection3.tex}
+
+\subsection{mo'a^sirAt al-nafaqAt}
+\input{subsection4.tex}
+
+\section{ta.tbyqAt}
+\input{exercises.tex}
+
+\section{'ajwibaT al-ta.tbyqAt}
+\input{solutions.tex}
+
+\end{RLtext}
+
+\end{document}
